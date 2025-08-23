@@ -11,6 +11,7 @@ function findMax(numbers) {
   return max;
 }
 
+console.log("Punto 1");
 console.log(findMax([3, 17, -1, 4, -19]));
 
 // Punto 2
@@ -26,6 +27,7 @@ function includes(numbers, number) {
   return false;
 }
 
+console.log("Punto 2");
 console.log(includes([3, 17, -1, 4, -19], 2));
 console.log(includes([3, 17, -1, 4, -19], 4));
 
@@ -40,6 +42,7 @@ function sum(numbers) {
   return sum;
 }
 
+console.log("Punto 3");
 console.log(sum([3, 17, -1, 4, -19]));
 
 // Punto 4
@@ -59,14 +62,14 @@ function findMin(numbers) {
 function missingNumbers(numbers) {
   let min = findMin(numbers);
   let max = findMax(numbers);
-  let losQueFaltan = [];
+  let missingOnes = [];
   for (let i = 1; i <= max - min - 1; i++) {
-    console.log(`includes ${min + i}`);
     if (!numbers.includes(min + i)) {
-      losQueFaltan.push(min + i);
+      missingOnes.push(min + i);
     }
   }
-  return losQueFaltan;
+  return missingOnes;
 }
 
+console.log("Punto 4");
 console.log(missingNumbers([7, 2, 4, 6, 3, 9]));
