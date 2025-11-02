@@ -1,17 +1,6 @@
 # Talleres Desarrollo Web Backend
 
----
-
-## 1. Requisitos previos
-
-- Node.js
-- Git
-- Acceso al repositorio:
-  `https://github.com/adechlien/talleres-dllo-backend`
-
----
-
-## 2. Instalación
+## 1. Instalación
 
 Clona el repositorio
 ```bash
@@ -26,7 +15,7 @@ npm install
 
 ---
 
-## 3. Ejecución
+## 2. Ejecución
 
 Levanta el servidor
 ```bash
@@ -45,7 +34,7 @@ La salida debe ser
 
 ---
 
-## 5. Prueba
+## 3. Prueba
 
 ### **Taller 1**
 
