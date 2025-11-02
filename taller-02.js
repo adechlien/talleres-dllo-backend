@@ -35,11 +35,11 @@ console.log(includes([3, 17, -1, 4, -19], 4));
 // Desarrolle una funcion llamada sum que reciba una lista
 // de números y retorne la suma de los elementos de la lista.
 function sum(numbers) {
-  sum = 0;
+  let total = 0;
   for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
+    total += numbers[i];
   }
-  return sum;
+  return total;
 }
 
 console.log("Punto 3");
@@ -73,3 +73,10 @@ function missingNumbers(numbers) {
 
 console.log("Punto 4");
 console.log(missingNumbers([7, 2, 4, 6, 3, 9]));
+
+module.exports = {
+  findMax,
+  includes,
+  sum,
+  missingNumbers,
+};

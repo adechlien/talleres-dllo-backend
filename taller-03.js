@@ -98,3 +98,10 @@ function descomposicion(input) {
 }
 
 console.log(descomposicion("malhumor,al,hum,humor,m,mal,malhu"));
+
+module.exports = {
+  desglosarString,
+  twoSum,
+  conversionRomana,
+  descomposicion,
+};

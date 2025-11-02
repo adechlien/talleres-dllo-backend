@@ -51,3 +51,10 @@ if (paridad == 0) {
 } else if (paridad == 1) {
   console.log("No es par");
 }
+
+module.exports = {
+  convertidorTemp,
+  resolvedor,
+  mejorParidad,
+  peorParidad,
+};

@@ -1,0 +1,26 @@
+{
+  "name": "talleres-dllo-backend",
+  "version": "1.0.0",
+  "description": "1. Desarrolle una función llamada convertidorTemp que reciba una temperatura en centigrados y retorne la temperatura en fahrenheit.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adechlien/talleres-dllo-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adechlien/talleres-dllo-backend/issues"
+  },
+  "homepage": "https://github.com/adechlien/talleres-dllo-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
